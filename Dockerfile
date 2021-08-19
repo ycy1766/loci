@@ -1,4 +1,5 @@
-ARG FROM=ubuntu:bionic
+#ARG FROM=ubuntu:bionic
+ARG FROM=ubuntu:focal
 FROM ${FROM}
 
 ENV PATH=/var/lib/openstack/bin:$PATH
